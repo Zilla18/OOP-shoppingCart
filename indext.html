@@ -1,0 +1,38 @@
+html
+<!DOCTYPE html>
+<!-- This is the root HTML file for the OOP Cart project. -->
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the page -->
+    <title>OOP Cart</title>
+  </head>
+  <body>
+    <!-- Main container for the cart -->
+    <section id="cart--container" class="flex justify-center gap-4">
+      <!-- Heading for the total number of items in the cart -->
+      <h3
+        id="total-cart-items"
+        class="text-2xl font-bold flex flex-col-reverse"
+      >
+        5
+      </h3>
+
+      <!-- Container for displaying the cart items -->
+      <div
+        id="display-cart-items"
+        class="shadow p-4 border rounded-lg w-fit flex flex-col gap-4"
+      ></div>
+
+      <!-- Heading for the total price of the cart -->
+      <h4 id="total-price" class="text-2xl font-bold">100,000</h4>
+    </section>
+
+    <!-- Script tag for the main JavaScript file -->
+    <script src="index.js"></script>
+    <!-- Script tag for Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
